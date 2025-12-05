@@ -116,7 +116,7 @@ void deletePatient() {
             }
             count--;
             patients = realloc(patients, count * sizeof(struct Patient));
-            printf("✅ Patient deleted successfully!\n");
+            printf(" Patient deleted successfully!\n");
             found = 1;
             saveToFile(); // update file
             break;
