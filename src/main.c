@@ -45,7 +45,7 @@ void addPatient() {
     scanf(" %[^\n]", patients[count].doctor);
 
     count++;
-    printf("\n✅ Patient added successfully!\n");
+    printf("\n Patient added successfully!\n");
 
     saveToFile(); // Save after adding
 }
